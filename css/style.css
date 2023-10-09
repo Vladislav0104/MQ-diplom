@@ -179,7 +179,7 @@ textarea.field {
   margin-left: 35px;
 }
 
-.menu-list-item:hover {
+.menu-link:hover {
   text-decoration: underline;
 }
 
@@ -298,14 +298,15 @@ textarea.field {
   font-weight: bold;
 }
 
-.news-teg-item:nth-child(n+2) {
-  margin-left: 18px;
-}
-
 .news-teg-link {
   color: #b59f5b;
   text-decoration: none;
   text-transform: uppercase;
+  margin-right: 18px;
+}
+
+.news-teg-link:hover {
+  text-decoration: underline;
 }
 
 .news-img {
@@ -491,6 +492,9 @@ textarea.field {
   text-transform: uppercase;
 }
 
+.teg-link:hover {
+  border: 3px solid #b59f5b;
+}
 .topics-list {
   margin-top: 25px;
   list-style-type: none;
@@ -507,6 +511,10 @@ textarea.field {
 .topics-link {
   color: #0f0d0e;
   text-decoration: none;
+}
+
+.topics-link:hover {
+  color: #b59f5b;
 }
 
 .topic-marker {
@@ -909,7 +917,7 @@ textarea.field {
     top: -32px;
   }
 
-  textarea.field {
+  textarea {
   resize: none;
   }
 
